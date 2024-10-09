@@ -1,0 +1,38 @@
+body {
+  background-color: #F0F0F0; /* Серый фон */
+}
+
+.container {
+  background-color: #FFB6C1; /* Розовый фон */
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+p{
+line-height: 1.5;
+font-size: 1.3em;
+}
+
+img {
+  width: 40%;
+  margin: 20px auto;
+  display: block; 
+  border-radius: 10px; 
+}
+.heart-left {
+  position: absolute;
+  left: 30px; /* Отступ от левого края */
+  top: 50%;
+  transform: translateY(-50%); /* Выравнивание по вертикали */
+  width: 350px; /*  Размер  сердца */
+}
+
+.heart-right {
+  position: absolute;
+  right: 30px; /*  Отступ  от  правого  края */
+  top: 50%;
+  transform: translateY(-50%); /* Выравнивание по вертикали */
+  width: 350px; /*  Размер  сердца */
+}
+h1 {
+  text-align: center; /* Выравнивание по центру */
